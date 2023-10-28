@@ -890,3 +890,7 @@ img {
     color: white;
     filter: invert(1);
 }
+
+.reportSostenibilitaSection .container-txt .wrap .row .col .filler a{
+  color: black;
+}
