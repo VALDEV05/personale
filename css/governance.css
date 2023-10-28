@@ -1,11 +1,6 @@
-.info-txt
-  .governance-txt
-  .container-txt
-  .wrap
-  .row
-  .col.col--1of6
-  p.filler.small {
-  padding-top: 0;
+
+.col.col--1of6 p.filler.small {
+  padding-top: 0px;
 }
 
 ul.x-small li {
