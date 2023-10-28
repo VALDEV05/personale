@@ -1,0 +1,27 @@
+.info-txt
+  .governance-txt
+  .container-txt
+  .wrap
+  .row
+  .col.col--1of6
+  p.filler.small {
+  padding-top: 0;
+}
+.info-txt
+  .governance-txt
+  .container-txt
+  .wrap
+  .row
+  .col.col--5of6
+  ul.x-small
+  li {
+  font-family: Social, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #5e5e5e;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  max-width: 45vw;
+}
