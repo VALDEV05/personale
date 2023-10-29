@@ -12,9 +12,11 @@
 
 body {
   background-color: #f4f4f4;
-  overflow: hidden;
+  overflow-x: hidden;
 }
-
+.body{
+  position: relative;
+}
 .marquee {
   z-index: 999999999;
   will-change: transform;
@@ -793,7 +795,7 @@ img {
   overflow: hidden;
   white-space: nowrap;
   font-family: "Social";
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   z-index: 999;
