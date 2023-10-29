@@ -10,11 +10,13 @@ function introAnimation() {
   const nav = jQuery(".top-bar");
   const soundActivator = jQuery(".top-bar_sound-activator");
   const footer = jQuery(".footer");
+  const switcher  = jQuery(".switcher-languages")
   body.css("opacity", "0");
   logo.css("opacity", "0");
   nav.css("opacity", "0");
   footer.css("opacity", "0");
   soundActivator.css("opacity", "0");
+  switcher.css('opacity',"0");
   console.log("====================================");
   console.log(introContainer);
   console.log("====================================");
@@ -73,6 +75,16 @@ function introAnimation() {
       );
       gsap.fromTo(
         nav,
+        {
+          opacity: "0",
+        },
+        {
+          opacity: "1",
+          duration: 4,
+        }
+      );
+      gsap.fromTo(
+        switcher,
         {
           opacity: "0",
         },
