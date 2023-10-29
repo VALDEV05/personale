@@ -39,7 +39,12 @@ video {
 .container-img-simil-bg.purple {
   background-color: purple;
 }
-
+.container-img-simil-bg img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    object-position: bottom;
+}
 .top-bar_sound-activator {
   position: fixed;
   right: 140px;
