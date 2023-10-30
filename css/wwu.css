@@ -46,13 +46,13 @@ input:active
 }
 
 .container-form .row-input .input-container-field input {
-    padding: 8px 16px;
+    padding: 14px 20px;
     border-radius: 1.5rem;
     border: 1px solid black;
     background: transparent;
 }
 .container-form .row-input .input-container-field input[type="file"]{
-    padding: 14px 16px;
+    padding: 14px 20px;
     border-radius: 100px;
 }
 
