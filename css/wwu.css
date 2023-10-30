@@ -1,0 +1,40 @@
+.wwu-container .container-text .container-form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    gap: 24px;
+}
+
+.wwu-container .container-text .container-form .row-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wwu-container .container-text .container-form .row-input.row-input-two .input-container-field {
+    width: 48%;
+}
+
+.wwu-container .container-text .container-form .row-input .input-container-field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.wwu-container .container-text .container-form .row-input .input-container-field label {
+    background-color: #f4f4f4;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 18px;
+    padding: 0px 4px;
+}
+
+.wwu-container .container-text .container-form .row-input .input-container-field input {
+    padding: 8px 16px;
+    border-radius: 1.5rem;
+    border: 1px solid black;
+    background: transparent;
+}
+.wwu-container .container-text .container-form .row-input .input-container-field input[type="file"]{
+    padding: 14px 16px;
+    border-radius: 100px;
+}
