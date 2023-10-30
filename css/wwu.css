@@ -1,6 +1,13 @@
+input:focus,
+input:focus-visible,
+input:focus-within{
+    outline: none;
+}
+
 .container-form {
     display: flex;
     flex-direction: column;
+    margin: 88px 0;
     width: 40vw;
     gap: 24px;
 }
